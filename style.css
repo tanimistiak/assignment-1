@@ -287,6 +287,11 @@ body {
     padding-bottom: 4%;
     background-color: rgba(166, 202, 3, 0.39);
     border-radius: 20px;
+    background-image: url(images/shapes/shape-7.png), url(images/shapes/shape-6.png), url(images/shapes/shape-8.png), url(images/shapes/shape-9.png), url(images/shapes/shape-2.png);
+    background-size: 100px, 100px, 100px, 100px, 100px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position-x: 0px, center, 690px, 690px, 0px;
+    background-position-y: 0px, center, bottom, top, 260px;
 }
 
 .form button {
