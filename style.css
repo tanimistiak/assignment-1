@@ -306,3 +306,17 @@ body {
 .form button:hover {
     background-color: rgb(255, 38, 0);
 }
+
+.footer {
+    text-align: center;
+    background-color: rgba(0, 0, 65, 0.856);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 3% 0;
+}
+
+.footer .mi2022 {
+    color: tomato;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
