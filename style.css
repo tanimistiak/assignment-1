@@ -241,8 +241,8 @@ body {
     background-image: url(images/shapes/shape-3.png), url(images/shapes/shape-3.png), url(images/shapes/shape-3.png);
     background-size: 100px, 80px, 60px;
     background-repeat: no-repeat;
-    background-position-x: 0px, 240px, 20px;
-    background-position-y: 0px, 300px, 450px;
+    background-position-x: left, right, left;
+    background-position-y: top, center, bottom;
 }
 
 .corona .corona-text {
@@ -290,8 +290,8 @@ body {
     background-image: url(images/shapes/shape-7.png), url(images/shapes/shape-6.png), url(images/shapes/shape-8.png), url(images/shapes/shape-9.png), url(images/shapes/shape-2.png);
     background-size: 100px, 100px, 100px, 100px, 100px;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-    background-position-x: 0px, center, 690px, 690px, 0px;
-    background-position-y: 0px, center, bottom, top, 260px;
+    background-position-x: left, center, right, right, left;
+    background-position-y: top, center, bottom, top, bottom;
 }
 
 .form button {
@@ -311,12 +311,21 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 65, 0.856);
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lobster', cursive;
     padding: 3% 0;
 }
 
 .footer .mi2022 {
     color: tomato;
     font-weight: 900;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+}
+
+.follow div {
+    padding: 0 1%;
 }
