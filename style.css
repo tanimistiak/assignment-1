@@ -308,6 +308,7 @@ body {
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     background-position-x: left, center, right, right, left;
     background-position-y: top, center, bottom, top, bottom;
+    box-shadow: 20px 20px 100px gray;
 }
 
 .form button {
