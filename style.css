@@ -123,8 +123,8 @@ body {
     background-size: 170px;
     background-repeat: no-repeat;
     padding-left: 5%;
-    background-position-x: 5px;
-    background-position-y: 50px;
+    background-position-x: left;
+    background-position-y: center;
     align-items: center;
 }
 
@@ -166,8 +166,8 @@ body {
     background-image: url(images/shapes/shape-1.png);
     background-size: 170px;
     background-repeat: no-repeat;
-    background-position-x: 1015px;
-    background-position-y: 200px;
+    background-position-x: right;
+    background-position-y: bottom;
     align-items: center;
 }
 
